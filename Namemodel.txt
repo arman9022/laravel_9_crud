@@ -1,0 +1,1 @@
+protected $table =  'table_name' ;

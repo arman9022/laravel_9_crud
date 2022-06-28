@@ -1,0 +1,5 @@
+composer create-project laravel/laravel ProjectName
+php artisan serve
+php artisan migrate
+php artisan make:controller NameController -r
+php artisan make:model Modelname

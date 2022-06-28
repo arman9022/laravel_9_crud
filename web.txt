@@ -1,0 +1,9 @@
+use App\Http\Controllers\NameController;
+
+Route::get('/create', [NameController::class, 'create']);
+Route::post('/store', [NameController::class, 'store']);
+Route::get('/index', [NameController::class, 'index']);
+Route::get('/show/{id}', [NameController::class, 'show']);
+Route::get('/edit/{id}', [NameController::class, 'edit']);
+Route::post('/update/{id}', [NameController::class,'update']) ;
+Route::get('/destroy/{id}', [NameController::class,'destroy']) ;
